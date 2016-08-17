@@ -25,15 +25,8 @@ function init()
 	map = document.getElementById("map");
 	ctxMap = map.getContext("2d");
 
-	pl=document.getElementById("player");
-	ctxPl = pl.getContext("2d");
-
-
 	map.width=gameWidth;
 	map.height =gameHeight;
-
-	pl.width=gameWidth;
-	pl.height =gameHeight;
 
 	drawBtn = document.getElementById("drawBtn");
 	clearBtn = document.getElementById("clearBtn");
